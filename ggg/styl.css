@@ -1,0 +1,85 @@
+* {
+	margin: 0 ;
+	padding: 0 ;
+	box-sizing: border-box;
+}
+
+body{
+
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	background-image: url(img/fon.jpg);
+	width: auto;
+	height: 968px;
+}
+
+.oform{
+ 	margin: 0 auto;
+ 	background-color: white;
+ 	width: 500px;
+ 	height: 650px;
+	
+ }
+
+.text{
+	width: 300px;	
+	margin: 0 auto;
+	margin: 15% 20px 50px 20%;
+	font-size: 20px;
+	background-color: rgba(199, 199, 199, 1);
+	text-align: center;
+	border-radius: 10px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	color: rgba(237, 237, 237, 1);
+
+}
+
+h1{
+	margin: 0 auto;
+	margin-right: 30px;	
+	text-align: center;
+	margin-top: 40px;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.knopka{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button{
+	background-color: black;
+	color: white;
+	width: 200px;
+	height: 50px;
+	border-radius: 20px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+button:hover{
+	background-color: rgba(38, 37, 37, 1);
+}
+
+img{
+	width: 50px;
+	height:50px;
+	border-radius: 100px;
+	margin: 0 auto;
+	margin: 10px;
+}
+
+input{
+	width: 250px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	text-align: center;
+}

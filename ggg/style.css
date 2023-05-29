@@ -1,0 +1,137 @@
+* {
+	margin: 0 ;
+	padding: 0 ;
+	box-sizing: border-box;
+}
+
+body{
+}
+
+.container{
+	margin: 0 auto;
+	background-image: url(img/fon.jpg);
+	height: 1030px;
+}
+
+.cloth , .text{
+	text-align: center;
+}
+
+.header{
+	display: flex;
+	justify-content: center;
+	width: 1350px;
+	height: 100px;
+	margin: 0 auto
+}
+
+.clothes{
+	display: flex;
+	justify-content: space-around;
+}
+
+.cloth{
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	margin: 10px;
+}
+
+.text{
+	margin: 0 auto;
+	margin-top: 100px;
+	font-size: 90px;
+	font-weight: bold;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1{
+	text-align: center;
+	margin:20px;
+	color: white;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.logo{
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+	margin: 10px;
+	margin-right: 50px;
+	border-radius: 100px
+}
+
+.tt{
+	margin: 0 auto;
+	margin: 30px;
+	margin-top: 30px;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.tt1{
+	margin: 0 auto;
+	margin: 10px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Montserrat Alternates', sans-serif;
+	color: white;
+}
+
+.shmot{
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
+}
+
+
+.tcloth{
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Montserrat Alternates', sans-serif;
+	color: white;
+}
+
+.knopka{
+	margin: 0 auto;
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+button{
+	width: 150px;
+	height: 50px;
+	background-color: black;
+	color:white;
+	border-radius: 20px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.podval{
+	margin: 0 auto;
+	width: 1350px;
+	height: 50px;
+}
+
+footer{
+	background-image: url(img/fon.jpg);
+}
+
+.social{
+	height: 10px;
+	width: 160px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
